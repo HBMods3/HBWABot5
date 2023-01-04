@@ -17,8 +17,8 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.owner = ['918416093656'] //ur owner number
 global.ownername = "Herbert Suantak" //ur owner name
-global.ytname = "YT: HBMods" //ur yt chanel name
-global.socialm = "Instagram: Herbert Suantak" //ur github or insta name
+global.ytname = "HBMods" //ur yt chanel name
+global.socialm = "Herbert Suantak" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bomdy 
@@ -40,18 +40,18 @@ global.sp = ''
 
 //messages
 global.mess = {
-    success: 'Here you go!',
-    admin: 'This feature could be used by admins only!',
-    botAdmin: 'Bot Must Be Admin First!',
-    premime: 'Premium Special Features If You Want to Register Type Rent',
-    owner: 'This feature could be used by owner only',
-    group: 'Features Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature could be used by bot only',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+    success: 'Hei le! 🫠',
+    admin: 'He features hi chu admin te chauh hman thei tur a siam a ni!',
+    botAdmin: 'Admin min nih tir phawt a ngai!',
+    premime: 'He features premium ah ka dah bik hi i hman duh chuan Rent tiin rawn type rawh',
+    owner: 'He features hi a nei tu chauhin a hmang thei🫠',
+    group: 'Hei chu group ah chauh a hman thei!',
+    private: 'Hei chu private chat ah chauh a hman thei!',
+    bot: 'Hei chu kei mah chauh hman thei tur a siam a ni',
+    wait: 'Reilo te min lo nghak rawh.',
+    linkm: 'Khawnge a link🙄?',
+    endLimit: 'Vawiin ah i hman tur i hmang zo ta, darkar 12 ral hunah i hmang leh thei ang',
+    nsfw: 'Nsfw features hi a neitu in a active loh a avngin a hman thei lo a, active turin a siam tu va hrilh rawh',
 }
 
 //media target
