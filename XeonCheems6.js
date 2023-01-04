@@ -1941,7 +1941,7 @@ ${themeemoji} Url : ${anulay.url}`,
             }
             break
 case 'playmp3': //credit: Ray Senpai ❤️ https://github.com/EternityBots/Nezuko
-if (!text) throw HBModsInc : ${prefix + command} anime whatsapp status`
+if (!text) throw `Entirnan : ${prefix + command} anime whatsapp status`
 const xeonplaymp3 = require('./lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
