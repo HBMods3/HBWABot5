@@ -6269,25 +6269,6 @@ RedditImageFetcher.fetch({
             m.reply ("Not found!")
         })
         break
-case 'define': //credit: Ray Senpai ❤️ https://github.com/EternityBots/Nezuko
-if (!q) throw `What do you want to define?`
-try {
-targetfine = await axios.get(`http://api.urbandictionary.com/v0/define?term=${q}`)
-if (!targetfine) throw mess.error
-const reply = `
-*${themeemoji} Word:* ${q}
-*${themeemoji} Definition:* ${targetfine.data.list[0].definition
-    .replace(/\[/g, "")
-    .replace(/\]/g, "")}
-*${themeemoji} Entir nan*:* ${targetfine.data.list[0].\n*Entir nan*
-    .replace(/\[/g, "")
-    .replace(/\]/g, "")}`
-   XeonBotInc.sendMessage(m.chat,{text:reply},{quoted:m})
-} catch (err) {
-    console.log(err)
-    return m.reply (`*${q}* isn't a valid text`)
-    }
-    break
 case 'scxx': case 'scriptx': case 'donatexx': case 'donatexx': case 'cekupdatexx': case 'updatebxot': case 'cekxbot': case 'sourcexcode': {
 teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
 let buttons = [
