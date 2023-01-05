@@ -1822,16 +1822,35 @@ case 'tomp4': case 'tovideo': {
 	    })
 	    }
 	    break
-	    case 'yts': case 'ytsearch': {
-                if (!text) throw `\n*Entir nan* : ${prefix + command} story wa anime`
-                let yts = require("youtube-yts")
-                let search = await yts(text)
-                let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
-                let no = 1
-                for (let i of search.all) {
-                    teks += `${themeemoji} No : ${no++}\n${themeemoji} Type : ${i.type}\n${themeemoji} Video ID : ${i.videoId}\n${themeemoji} Title : ${i.title}\n${themeemoji} Views : ${i.views}\n${themeemoji} Duration : ${i.timestamp}\n${themeemoji} Uploaded : ${i.ago}\n${themeemoji} Url : ${i.url}\n\n─────────────────\n\n`
+	    case 'yts': case 'youtube':{
+        if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Thlahrang thawnthu`)
+            let ytslagu = require("youtube-yts")
+            let lagusearch = await ytslagu(text)
+            listSerch = []
+            teskd = `*Hei le:* ${text}\n`
+            for (let i of lagusearch.all) {
+                listSerch.push({
+                    title: i.title,
+                    rowId: `${prefix}play ${text}`,
+                    description: `Duration: ${i.timestamp}`
+                })
+            }
+            const sections = [
+                {
+                    title: " " + lagusearch.all.length + " zawng chiah hi ka hmu",
+                    rows: listSerch
                 }
-                XeonBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
+            ]
+            const listMessage = {
+                text: teskd,
+                footer: botname,
+                title: ``,
+                buttonText: "YouTube",
+                mentions: parseMention(teskd), sections
+            }
+            return XeonBotInc.sendMessage(m.chat, listMessage, {
+                quoted: m
+            })
             }
             break
         case 'google': {
@@ -1849,11 +1868,11 @@ case 'tomp4': case 'tovideo': {
                 }
                 break
 case 'video': { 
-if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Stay jb`)
+if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Mizo WhatsApp status`)
             let ytsvideo = require("youtube-yts")
             let videosearch = await ytsvideo(text)
             listSerch = []
-            teskd = `\nSearched Video: ${text}\n`
+            teskd = `\n*Hei le:* ${text}\n`
             for (let i of videosearch.all) {
                 listSerch.push({
                     title: i.title,
@@ -1863,7 +1882,7 @@ if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Stay jb`)
             }
             let sections = [
                 {
-                    title: "Top " + videosearch.all.length + " tah hian i video search te chu an awm e",
+                    title: " " + videosearch.all.length + " zawng hi ka hmu",
                     rows: listSerch
                 }
             ]
@@ -1880,11 +1899,11 @@ if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Stay jb`)
             }
         break    
         case 'song': case 'hla':{
-        if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} stay jb`)
+        if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Hringnun Vanlalsailova`)
             let ytslagu = require("youtube-yts")
             let lagusearch = await ytslagu(text)
             listSerch = []
-            teskd = `Searched Song: ${text}\n`
+            teskd = `*Hei le:* ${text}\n`
             for (let i of lagusearch.all) {
                 listSerch.push({
                     title: i.title,
@@ -1894,7 +1913,7 @@ if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Stay jb`)
             }
             const sections = [
                 {
-                    title: "Top " + lagusearch.all.length + " tah hian i hla search te chu an awm e",
+                    title: " " + lagusearch.all.length + " zawng chiah hi ka hmu",
                     rows: listSerch
                 }
             ]
@@ -1912,13 +1931,13 @@ if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Stay jb`)
             break
         
     case 'play': case 'ytplay':{
-                if (!text) throw `\n*Entir nan* : ${prefix + command} anime whatsapp status`
+                if (!text) throw `\n*Entir nan* : ${prefix + command} K hminga siar lalnu`
                 let yts = require("youtube-yts")
                 let search = await yts(text)
                 let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: '♫ hla'}, type: 1},
-                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: '► Video'}, type: 1}
+                    {buttonId: `playmp3 ${anulay.url}`, buttonText: {displayText: '🎵HLA'}, type: 1},
+                    {buttonId: `playmp4 ${anulay.url}`, buttonText: {displayText: '🎦VIDEO'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anulay.thumbnail },
@@ -6093,15 +6112,15 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
       case 'lesbian':
       case 'upa':
       case 'chhaw':
-      case 'madarchod':
-      case 'tut':
-      case 'chutiya':
-      case 'nibba':
+      case 'ngo':
+      case 'dum':
+      case 'thu':
+      case 'hang':
       case 'nibbi':
-      case 'bhosdiwala':
-      case 'chutmarika':
-      case 'bokachoda':
-      case 'suarerbaccha':
+      case 'lulian':
+      case 'tukzum':
+      case 'lian':
+      case 'te':
       case 'bolochoda':
       case 'muthal':
       case 'muthbaaz':
