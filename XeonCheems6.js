@@ -1831,7 +1831,7 @@ case 'tomp4': case 'tovideo': {
             for (let i of lagusearch.all) {
                 listSerch.push({
                     title: i.title,
-                    rowId: `${prefix}play ${i.url}`,
+                    rowId: `${prefix}play ${anulay.title}`,
                     description: `Duration: ${i.timestamp}`
                 })
             }
