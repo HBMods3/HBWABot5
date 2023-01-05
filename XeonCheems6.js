@@ -1825,11 +1825,11 @@ case 'tomp4': case 'tovideo': {
 	    case 'yts': case 'youtube':{
         if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Thlahrang thawnthu`)
             let yts = require("youtube-yts")
-                let search = await yts(text)
-                let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
+            let search = await yts(text)
+            let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
             listSerch = []
-            teskd = `*Hei le:* ${text}\n`
-            for (let i of lagusearch.all) {
+            teskd = `*${text}*\nYouTube tih khu hmet la`
+            for (let i of search.videos.length) {
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}play ${anulay.videoId}`,
@@ -1838,7 +1838,7 @@ case 'tomp4': case 'tovideo': {
             }
             const sections = [
                 {
-                    title: " " + lagusearch.all.length + " zawng chiah hi ka hmu",
+                    title: " " + search.videos.length + " zawng chiah hi ka hmu",
                     rows: listSerch
                 }
             ]
