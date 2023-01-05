@@ -1824,14 +1824,15 @@ case 'tomp4': case 'tovideo': {
 	    break
 	    case 'yts': case 'youtube':{
         if (!text) return m.reply(`\n*Entir nan* : ${prefix + command} Thlahrang thawnthu`)
-            let ytslagu = require("youtube-yts")
-            let lagusearch = await ytslagu(text)
+            let yts = require("youtube-yts")
+                let search = await yts(text)
+                let anulay = search.videos[Math.floor(Math.random() * search.videos.length)]
             listSerch = []
             teskd = `*Hei le:* ${text}\n`
             for (let i of lagusearch.all) {
                 listSerch.push({
                     title: i.title,
-                    rowId: `${prefix}play ${anulay.title}`,
+                    rowId: `${prefix}play ${anulay.videoId}`,
                     description: `Duration: ${i.timestamp}`
                 })
             }
