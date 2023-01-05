@@ -1647,7 +1647,7 @@ case 'sticker': case 's': case 'stickergif': case 'sgif': {
                 let encmedia = await XeonBotInc.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
                 await fs.unlinkSync(encmedia)
             } else {
-                throw `Video emaw thlalak a caption ah *${prefix + command}* rawn dah la  \nVideo chu second 10 aia tam rawn thawn suh`
+                throw `Video emaw thlalak a caption ah *${prefix + command}* rawn dah la\n\n*Video chu second 10 aia tam rawn thawn suh*`
                 }
             }
             break
@@ -1710,7 +1710,7 @@ break
 		}
 	    }
 	    break
-         case 'tts': case 'say':{
+         case 'tts': case 'tawng':{
          	if (!text) throw `\n*Entir nan* : ${prefix + command} text`
              let tts = await fetchJson(`https://api.akuari.my.id/texttovoice/texttosound_english?query=${text}`)
              XeonBotInc.sendMessage(m.chat, { audio: { url: tts.result }, mimetype: 'audio/mp4', ptt: true, fileName: `${text}.mp3` }, { quoted: m })
@@ -1832,7 +1832,7 @@ case 'tomp4': case 'tovideo': {
             for (let i of search.videos.length) {
                 listSerch.push({
                     title: i.title,
-                    rowId: `${prefix}play ${anulay.videoId}`,
+                    rowId: `${prefix}play ${i.videoId}`,
                     description: `Duration: ${i.timestamp}`
                 })
             }
@@ -2920,7 +2920,7 @@ maker.textpro("https://textpro.me/fruit-juice-text-effect-861.html", [
    break
 case 'pornhub':{
 	
-if(!q) throw `\n*Entir nan*: ${prefix + command} ajg | ea`
+if(!q) throw `\n*Entir nan*: ${prefix + command} Engtia | Editz07`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
 inilogo9 = args.join(" ")
@@ -2932,7 +2932,7 @@ XeonBotInc.sendMessage(from,{image:{url:anuphub}, caption:"Siamted by HBWABot3!"
 }
 break
 case 'retro':{
-if(!q) throw `\n*Entir nan*: ${prefix + command} ajg | ea`
+if(!q) throw `\n*Entir nan*: ${prefix + command} Engtia | Editz07`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
 inilogo9 = args.join(" ")
@@ -2944,7 +2944,7 @@ XeonBotInc.sendMessage(from,{image:{url:anutro2}, caption:"Siamted by HBWABot3!"
 }
 break
 case 'horror':{
-if(!q) throw `\n*Entir nan*: ${prefix + command} ajg | ea`
+if(!q) throw `\n*Entir nan*: ${prefix + command} Engtia | Editz07`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
 inilogo9 = args.join(" ")
@@ -2956,7 +2956,7 @@ XeonBotInc.sendMessage(from,{image:{url:anuror2}, caption:"Siamted by HBWABot3!"
 }
 break
 case '8bit':{
-if(!q) throw `\n*Entir nan*: ${prefix + command} ajg | ea`
+if(!q) throw `\n*Entir nan*: ${prefix + command} Engtia | Editz07`
 m.reply(mess.wait)
   inilogo4 = args.join(" ")
 inilogo9 = args.join(" ")
@@ -4664,7 +4664,7 @@ case 'emoji': {
 if (!args.join(" ")) return m.reply('Khawnge emoji chu🙄?')
 emoji.get(args.join(" ")).then(async(emoji) => {
 let mese = await XeonBotInc.sendMessage(m.chat, {image:{url:emoji.images[4].url}, caption: `Siamted by ${global.botname}`}, {quoted:m})
-await XeonBotInc.sendMessage(from, {text:"reply #s to this image to make sticker"}, {quoted:mese})
+await XeonBotInc.sendMessage(from, {text:"He mi thlalak hi *s* tiin reply la sticker ah a chang ang"}, {quoted:mese})
 })
 }
 break
