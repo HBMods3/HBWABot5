@@ -2040,47 +2040,47 @@ break
 	    if (!text) return reply(`\n*Entir nan :* ${prefix + command} HBMods|Cannel`)
 	m.reply(mess.wait)
 	const sections = [{
-								"title": "Logo 2 Siamna",
+								"title": "Logo 2 Siamna te",
 								"rows": [
 									{
 										"title": "Pornhub",
 										"description": "Pornhub Logo rawn siam rawh le",
-										"rowId": `${prefix}pornhub ${command}`
+										"rowId": `${prefix}pornhub ${text}`
 									},
 									{
 										"title": "Lion",
 										"description": "Lion Logo rawn siam rawh le",
-										"rowId": `${prefix}lion ${command}`
+										"rowId": `${prefix}lion ${text}`
 										},
 									{
 										"title": "Pornhub2",
 										"description": "Pornhub2 Logo rawn siam rawh le",
-										"rowId": `${prefix}pornhub2 ${command}`
+										"rowId": `${prefix}pornhub2 ${text}`
 										},
 										{
 										"title": "Bear",
 										"description": "Bear Logo rawn siam rawh le",
-										"rowId": `${prefix}bear ${command}`
+										"rowId": `${prefix}bear ${text}`
 									},
 									{
 										"title": "3Dspace",
 										"description": "3Dspace Logo rawn siam rawh le",
-										"rowId": `${prefix}3dspace ${command}`
+										"rowId": `${prefix}3dspace ${text}`
 									},
 									{
 										"title": "3Dneon️",
 										"description": "3Dneon Logo rawn siam rawh le",
-										"rowId": `${prefix}3dneon ${command}`
+										"rowId": `${prefix}3dneon ${text}`
 									},
 									{
 										"title": "Wolf",
 										"description": "Wolf Logo rawn siam rawh le",
-										"rowId": `${prefix}wolf ${command}`
+										"rowId": `${prefix}wolf ${text}`
 									},
 									{
 										"title": "Graffiti",
 										"description": "Graffiti Logo rawn siam rawh le",
-										"rowId": `${prefix}graffiti ${command}`
+										"rowId": `${prefix}graffiti ${text}`
 									},
 									{
 										"title": "Glitch2",
@@ -2090,7 +2090,7 @@ break
 									{
 										"title": "Glitch3",
 										"description": "Glitch3 Logo rawn siam rawh le",
-										"rowId": `${prefix}glitch3 ${command}`
+										"rowId": `${prefix}glitch3 ${text}`
 									}
 								]
 							}
