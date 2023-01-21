@@ -2027,7 +2027,7 @@ await XeonBotInc.sendMessage(m.chat,{
 await fs.unlinkSync(audio.path)
 break
 	    case 'ytmp3xx': case 'ytaudioxx': {
-                let { yta } = require('./lib/y2mate')
+                let { yta } = require('./lib/ytdl2')
                 if (!text) throw `\n*Entir nan* : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
@@ -2035,7 +2035,76 @@ break
                 XeonBotInc.sendImage(m.chat, media.thumb, `${themeemoji} Title : ${media.title}\n${themeemoji} File Size : ${media.filesizeF}\n${themeemoji} Url : ${isUrl(text)}\n${themeemoji} Ext : MP3\n${themeemoji} Resolution : ${args[1] || '128kbps'}`, m)
                 XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
-            break
+            break 
+            case 'logo2': {
+	    if (!text) return reply(`\n*Entir nan :* ${prefix + command} HBMods|Cannel`)
+	m.reply(mess.wait)
+	const sections = [{
+								"title": "Logo 2 Siamna",
+								"rows": [
+									{
+										"title": "Pornhub",
+										"description": "Pornhub Logo rawn siam rawh le",
+										"rowId": `${prefix}pornhub ${command}`
+									},
+									{
+										"title": "Lion",
+										"description": "Lion Logo rawn siam rawh le",
+										"rowId": `${prefix}lion ${command}`
+										},
+									{
+										"title": "Pornhub2",
+										"description": "Pornhub2 Logo rawn siam rawh le",
+										"rowId": `${prefix}pornhub2 ${command}`
+										},
+										{
+										"title": "Bear",
+										"description": "Bear Logo rawn siam rawh le",
+										"rowId": `${prefix}bear ${command}`
+									},
+									{
+										"title": "3Dspace",
+										"description": "3Dspace Logo rawn siam rawh le",
+										"rowId": `${prefix}3dspace ${command}`
+									},
+									{
+										"title": "3Dneon️",
+										"description": "3Dneon Logo rawn siam rawh le",
+										"rowId": `${prefix}3dneon ${command}`
+									},
+									{
+										"title": "Wolf",
+										"description": "Wolf Logo rawn siam rawh le",
+										"rowId": `${prefix}wolf ${command}`
+									},
+									{
+										"title": "Graffiti",
+										"description": "Graffiti Logo rawn siam rawh le",
+										"rowId": `${prefix}graffiti ${command}`
+									},
+									{
+										"title": "Glitch2",
+										"description": "Glitch2 Logo rawn siam rawh le",
+										"rowId": `${prefix}glitch2`
+									},
+									{
+										"title": "Glitch3",
+										"description": "Glitch3 Logo rawn siam rawh le",
+										"rowId": `${prefix}glitch3 ${command}`
+									}
+								]
+							}
+						]
+const listMessage = {
+  text: "Logo tih khu hmet rawh",
+  footer: ``,
+  title: `Hi 👋 ${pushname}`,
+  buttonText: "LOGO",
+  sections
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
+}
+break
 case 'ytmp4': case 'ytvideo': //credit: Ray Senpai ❤️ https://github.com/EternityBots/Nezuko
 const xeonvidoh = require('./lib/ytdl2')
 if (args.length < 1 || !isUrl(text) || !xeonvidoh.isYTUrl(text)) throw `Link rawn dah rawh\n\n*Entir nan* : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
