@@ -15,11 +15,11 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['918416093656'] //ur owner number
-global.ownername = "Herbert Suantak" //ur owner name
-global.ytname = "HBMods" //ur yt chanel name
-global.socialm = "Herbert Suantak" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.owner = ['918416093656'] 
+global.ownername = "Herbert Suantak"
+global.ytname = "HBMods"
+global.socialm = "Herbert Suantak" 
+global.location = "India, Mizoram, Aizawl"
 
 //bot bomdy 
 global.ownernomer = "918416093656" //ur number
@@ -40,17 +40,17 @@ global.sp = ''
 
 //messages
 global.mess = {
-    success: 'Hei le! 🫠',
+    success: 'Hei le!',
     admin: 'He features hi chu admin te chauh hman thei tur a siam a ni!',
-    botAdmin: 'Admin min nih tir phawt a ngai!',
-    premime: 'He features premium ah ka dah bik hi i hman duh chuan Rent tiin rawn type rawh',
-    owner: 'He features hi a nei tu chauhin a hmang thei🫠',
-    group: 'Hei chu group ah chauh a hman thei!',
-    private: 'Hei chu private chat ah chauh a hman thei!',
+    botAdmin: 'Admin min nih tir phaw la, chuan ka ti thei ang!',
+    premime: 'Hemi features premium ah ka dah bik hi i hman duh chuan Rent tiin rawn type rawh',
+    owner: 'He features hi a neitu chauh hman thei tura siam a ni!',
+    group: 'Hei chu group ah chauh hman thei tura siam a ni!',
+    private: 'Hei chu private chat ah chauh hman thei tura siam a ni!',
     bot: 'Hei chu kei mah chauh hman thei tur a siam a ni',
-    wait: 'Reilo te min lo nghak rawh.',
+    wait: 'Reilo te min lo nghak rawh..',
     linkm: 'Khawnge a link🙄?',
-    endLimit: 'Vawiin ah i hman tur i hmang zo ta, darkar 12 ral hunah i hmang leh thei ang',
+    endLimit: 'Vawiin ah i hman tur i hmang zo ta, darkar 12 ral hunah i hmang leh thei chauh ang',
     nsfw: 'Nsfw features hi a neitu in a active loh a avngin a hman thei lo a, active turin a siam tu va hrilh rawh',
 }
 
