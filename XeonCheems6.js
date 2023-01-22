@@ -2036,11 +2036,443 @@ break
                 XeonBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break 
+            case 'logo': {
+	    if (!text) return reply(`\n*Entir nan :* ${prefix + command} HBMods`)
+	const sections = [{
+								"title": "A hnuaia Logo button te khu hmet rawh",
+								"rows": [
+									{
+										"title": "Candy",
+										"description": "Candy Logo rawn siam rawh le",
+										"rowId": `${prefix}candy ${text}`
+									},
+									{
+										"title": "8Bit",
+										"description": "8Bit Logo rawn siam rawh le",
+										"rowId": `${prefix}8bit ${text}`
+										},
+									{
+										"title": "Horror",
+										"description": "Horror Logo rawn siam rawh le",
+										"rowId": `${prefix}horror ${text}`
+										},
+										{
+										"title": "Hoorror",
+										"description": "Hoorror Logo rawn siam rawh le",
+										"rowId": `${prefix}hoorror ${text}`
+									},
+									{
+										"title": "Sparkle Christmas",
+										"description": "Sparkle Christmas Logo rawn siam rawh le",
+										"rowId": `${prefix}sparklechristmas ${text}`
+									},
+									{
+										"title": "Fiction️",
+										"description": "Fiction Logo rawn siam rawh le",
+										"rowId": `${prefix}fiction ${text}`
+									},
+									{
+										"title": "Scifi",
+										"description": "Scifi Logo rawn siam rawh le",
+										"rowId": `${prefix}scifi ${text}`
+									},
+									{
+										"title": "Deepsea",
+										"description": "Deepsea Logo rawn siam rawh le",
+										"rowId": `${prefix}deepsea ${text}`
+									},
+									{
+										"title": "Blackpink",
+										"description": "Blackpink Logo rawn siam rawh le",
+										"rowId": `${prefix}blackpink2 ${text}`
+									}, 
+									{
+										"title": "Blackpink Art",
+										"description": "Blackpink Art Logo rawn siam rawh le",
+										"rowId": `${prefix}blackpinkart ${text}`
+									}, 
+									{
+										"title": "Blackpink Neon",
+										"description": "Blackpink Neon Logo rawn siam rawh le",
+										"rowId": `${prefix}blackpinkneon ${text}`
+									}, 
+									{
+										"title": "Neon",
+										"description": "Neon Logo rawn siam rawh le",
+										"rowId": `${prefix}neon ${text}`
+									}, 
+									{
+										"title": "Chocolate",
+										"description": "Chocolate Logo rawn siam rawh le",
+										"rowId": `${prefix}chocolate ${text}`
+									}, 
+									{
+										"title": "Wood",
+										"description": "Wood Logo rawn siam rawh le",
+										"rowId": `${prefix}wood ${text}`
+									}, 
+									{
+										"title": "Biscuit",
+										"description": "Biscuit Logo rawn siam rawh le",
+										"rowId": `${prefix}biscuit ${text}`
+									}, 
+									{
+										"title": "Fruit Juice",
+										"description": "Fruit Juice Logo rawn siam rawh le",
+										"rowId": `${prefix}fruitjuice ${text}`
+									}, 
+									{
+										"title": "Berry",
+										"description": "Berry Logo rawn siam rawh le",
+										"rowId": `${prefix}berry ${text}`
+									}, 
+									{
+										"title": "Transformer",
+										"description": "Transformer Logo rawn siam rawh le",
+										"rowId": `${prefix}transformer ${text}`
+									}, 
+									{
+										"title": "Dark Gold",
+										"description": "Dark Gold Logo rawn siam rawh le",
+										"rowId": `${prefix}darkgold ${text}`
+									}, 
+									{
+										"title": "Wicker",
+										"description": "Wicker Logo rawn siam rawh le",
+										"rowId": `${prefix}wicker ${text}`
+									}, 
+									{
+										"title": "Halloween",
+										"description": "Halloween Logo rawn siam rawh le",
+										"rowId": `${prefix}halloween ${text}`
+									}, 
+									{
+										"title": "Blood",
+										"description": "Blood Logo rawn siam rawh le",
+										"rowId": `${prefix}blood ${text}`
+									}, 
+									{
+										"title": "Matrix",
+										"description": "Matrix Logo rawn siam rawh le",
+										"rowId": `${prefix}matrix ${text}`
+									}, 
+									{
+										"title": "Leaves",
+										"description": "Leaves Logo rawn siam rawh le",
+										"rowId": `${prefix}leaves ${text}`
+									}, 
+									{
+										"title": "Glue",
+										"description": "Glue Logo rawn siam rawh le",
+										"rowId": `${prefix}glue ${text}`
+									}, 
+									{
+										"title": "Sand",
+										"description": "Sand Logo rawn siam rawh le",
+										"rowId": `${prefix}sand ${text}`
+									}, 
+									{
+										"title": "Skeleton",
+										"description": "Skeleton Logo rawn siam rawh le",
+										"rowId": `${prefix}skeleton ${text}`
+									}, 
+									{
+										"title": "Fireworks",
+										"description": "Fireworks Logo rawn siam rawh le",
+										"rowId": `${prefix}firework ${text}`
+									}, 
+									{
+										"title": "Under Water",
+										"description": "UnderWater Logo rawn siam rawh le",
+										"rowId": `${prefix}underwater ${text}`
+									}, 
+									{
+										"title": "BlodGlass",
+										"description": "BlodGlass Logo rawn siam rawh le",
+										"rowId": `${prefix}bloodglas ${text}`
+									}, 
+									{
+										"title": "Rock Art",
+										"description": "Rock Art Logo rawn siam rawh le",
+										"rowId": `${prefix}rockart ${text}`
+									}, 
+									{
+										"title": "Lava",
+										"description": "Lava Logo rawn siam rawh le",
+										"rowId": `${prefix}lava ${text}`
+									}, 
+									{
+										"title": "Magma",
+										"description": "Magma Logo rawn siam rawh le",
+										"rowId": `${prefix}magma ${text}`
+									}, 
+									{
+										"title": "Batman",
+										"description": "Batman Logo rawn siam rawh le",
+										"rowId": `${prefix}batman ${text}`
+									}, 
+									{
+										"title": "Cloud",
+										"description": "Cloud Logo rawn siam rawh le",
+										"rowId": `${prefix}cloud ${text}`
+									}, 
+									{
+										"title": "Wonderful",
+										"description": "Wonderful Logo rawn siam rawh le",
+										"rowId": `${prefix} wonderful ${text}`
+									}, 
+									{
+										"title": "Ancient",
+										"description": "Ancient Logo rawn siam rawh le",
+										"rowId": `${prefix}ancient ${text}`
+									}, 
+									{
+										"title": "1917",
+										"description": "1917 Logo rawn siam rawh le",
+										"rowId": `${prefix}1917 ${text}`
+									}, 
+									{
+										"title": "Writing",
+										"description": "Writing Logo rawn siam rawh le",
+										"rowId": `${prefix} writing ${text}`
+									}, 
+									{
+										"title": "Water Color",
+										"description": "Water Colour Logo rawn siam rawh le",
+										"rowId": `${prefix} watercolor ${text}`
+									}, 
+									{
+										"title": "Classic",
+										"description": "Classic Logo rawn siam rawh le",
+										"rowId": `${prefix}classic ${text}`
+									}, 
+									{
+										"title": "Halloween Fire",
+										"description": "Halloween Fire Logo rawn siam rawh le",
+										"rowId": `${prefix}halloweenfire ${text}`
+									}, 
+									{
+										"title": "Sci Fi",
+										"description": "Sci Fi Logo rawn siam rawh le",
+										"rowId": `${prefix}sci_fi ${text}`
+									}, 
+									{
+										"title": "Fabric",
+										"description": "Fabric Logo rawn siam rawh le",
+										"rowId": `${prefix}fabric ${text}`
+									}, 
+									{
+										"title": "Discovery",
+										"description": "Discovery Logo rawn siam rawh le",
+										"rowId": `${prefix}discovery ${text}`
+									}, 
+									{
+										"title": "Pencil",
+										"description": "Pencil Logo rawn siam rawh le",
+										"rowId": `${prefix}pencil ${text}`
+									}, 
+									{
+										"title": "Neon Light",
+										"description": "Neon Light Logo rawn siam rawh le",
+										"rowId": `${prefix}neonlight ${text}`
+									}, 
+									{
+										"title": "Neon Ligh2",
+										"description": "Neon Light 2Logo rawn siam rawh le",
+										"rowId": `${prefix}neonlight2 ${text}`
+									}, 
+									{
+										"title": "Toxic",
+										"description": "Toxic Logo rawn siam rawh le",
+										"rowId": `${prefix}toxic ${text}`
+									}, 
+									{
+										"title": "Carbon",
+										"description": "Carbon Logo rawn siam rawh le",
+										"rowId": `${prefix}carbon ${text}`
+									}, 
+									{
+										"title": "Strawberry",
+										"description": "Strawberry Logo rawn siam rawh le",
+										"rowId": `${prefix}strawberry ${text}`
+									}, 
+									{
+										"title": "Thewall",
+										"description": "TheWall Logo rawn siam rawh le",
+										"rowId": `${prefix}thewall ${text}`
+									}, 
+									{
+										"title": "Natural",
+										"description": "Natural Logo rawn siam rawh le",
+										"rowId": `${prefix}natural ${text}`
+									}, 
+									{
+										"title": "3D Neon",
+										"description": "3D Neon Logo rawn siam rawh le",
+										"rowId": `${prefix}3dneon ${text}`
+									}, 
+									{
+										"title": "Green Neon",
+										"description": "Green Neon Logo rawn siam rawh le",
+										"rowId": `${prefix}greenneon ${text}`
+									}, 
+									{
+										"title": "Bokeh",
+										"description": "Bokeh Logo rawn siam rawh le",
+										"rowId": `${prefix}bokeh ${text}`
+									}, 
+									{
+										"title": "Joker",
+										"description": "Joker Logo rawn siam rawh le",
+										"rowId": `${prefix}joker ${text}`
+									}, 
+									{
+										"title": "Drop Water",
+										"description": "Drop Water Logo rawn siam rawh le",
+										"rowId": `${prefix}dropwater ${text}`
+									}, 
+									{
+										"title": "Drop Water2",
+										"description": "Drop Water2 Logo rawn siam rawh le",
+										"rowId": `${prefix}dropwater2 ${text}`
+									}, 
+									{
+										"title": "Holographic",
+										"description": "Holographic Logo rawn siam rawh le",
+										"rowId": `${prefix}holographic ${text}`
+									}, 
+									{
+										"title": "Thunder",
+										"description": "Thunder Logo rawn siam rawh le",
+										"rowId": `${prefix}thunder ${text}`
+									}, 
+									{
+										"title": "Glitch",
+										"description": "Glitch Logo rawn siam rawh le",
+										"rowId": `${prefix}glitch ${text}`
+									}, 
+									{
+										"title": "Summer Time",
+										"description": "Summer Time Logo rawn siam rawh le",
+										"rowId": `${prefix}summertime ${text}`
+									}, 
+									{
+										"title": "Window",
+										"description": "Window Logo rawn siam rawh le",
+										"rowId": `${prefix}window ${text}`
+									}, 
+									{
+										"title": "Graffiti Bike",
+										"description": "Graffiti Bike Logo rawn siam rawh le",
+										"rowId": `${prefix}graffitibike ${text}`
+									}, 
+									{
+										"title": "Neon Devil",
+										"description": "Neon Devil Logo rawn siam rawh le",
+										"rowId": `${prefix}neondevil ${text}`
+									}, 
+									{
+										"title": "3D Stone",
+										"description": "3D Stone Logo rawn siam rawh le",
+										"rowId": `${prefix}3dstone ${text}`
+									}, 
+									{
+										"title": "3D Stone2",
+										"description": "3D Stone2 Logo rawn siam rawh le",
+										"rowId": `${prefix}3dstone2 ${text}`
+									}, 
+									{
+										"title": "Water Drop",
+										"description": "Water Drop Logo rawn siam rawh le",
+										"rowId": `${prefix}waterdrop ${text}`
+									}, 
+									{
+										"title": "Paper Cut",
+										"description": "Paper Cut Logo rawn siam rawh le",
+										"rowId": `${prefix}papercut ${text}`
+									}, 
+									{
+										"title": "3D Box",
+										"description": "3D Box Logo rawn siam rawh le",
+										"rowId": `${prefix}3dbox ${text}`
+									}, 
+									{
+										"title": "Christmas",
+										"description": "Christmas Logo rawn siam rawh le",
+										"rowId": `${prefix}christmas ${text}`
+									}, 
+									{
+										"title": "3D Christmas",
+										"description": "3D Christmas Logo rawn siam rawh le",
+										"rowId": `${prefix}3dchristmas ${text}`
+									}, 
+									{
+										"title": "Demon",
+										"description": "Demon Logo rawn siam rawh le",
+										"rowId": `${prefix}demon ${text}`
+									}, 
+									{
+										"title": "Spooly",
+										"description": "Spooky Logo rawn siam rawh le",
+										"rowId": `${prefix}spooky ${text}`
+									}, 
+									{
+										"title": "Circuit",
+										"description": "Circuit Logo rawn siam rawh le",
+										"rowId": `${prefix}circuit ${text}`
+									}, 
+									{
+										"title": "Metallic",
+										"description": "Metallic Logo rawn siam rawh le",
+										"rowId": `${prefix}metallic ${text}`
+									}, 
+									{
+										"title": "Water Pipe",
+										"description": "Water Pipe Logo rawn siam rawh le",
+										"rowId": `${prefix}waterpipe ${text}`
+									}, 
+									{
+										"title": "Broke Glass",
+										"description": "Broken Glass Logo rawn siam rawh le",
+										"rowId": `${prefix}brokenglass ${text}`
+									}, 
+									{
+										"title": "Snow",
+										"description": "Snow Logo rawn siam rawh le",
+										"rowId": `${prefix}snow ${text}`
+									}, 
+									{
+										"title": "Multicolor",
+										"description": "Multicolor Logo rawn siam rawh le",
+										"rowId": `${prefix}multicolor ${text}`
+									}, 
+									{
+										"title": "Ice",
+										"description": "Ice Logo rawn siam rawh le",
+										"rowId": `${prefix}ice ${text}`
+									},
+									{
+										"title": "Honey",
+										"description": "Honey Logo rawn siam rawh le",
+										"rowId": `${prefix}honey ${text}`
+									}
+								]
+							}
+						]
+const listMessage = {
+  text: "Logo tih khu hmet rawh",
+  footer: ``,
+  title: `Hi 👋 ${pushname}`,
+  buttonText: "LOGO",
+  sections
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
+}
+break 
             case 'logo2': {
 	    if (!text) return reply(`\n*Entir nan :* ${prefix + command} HBMods|Cannel`)
-	m.reply(mess.wait)
 	const sections = [{
-								"title": "Logo 2 Siamna te",
+								"title": "A hnuaia Logo button te khu hmet rawh",
 								"rows": [
 									{
 										"title": "Pornhub",
@@ -2058,9 +2490,9 @@ break
 										"rowId": `${prefix}pornhub2 ${text}`
 										},
 										{
-										"title": "Bear",
-										"description": "Bear Logo rawn siam rawh le",
-										"rowId": `${prefix}bear ${text}`
+										"title": "Horror",
+										"description": "Horror Logo rawn siam rawh le",
+										"rowId": `${prefix}horror ${text}`
 									},
 									{
 										"title": "3Dspace",
@@ -2068,8 +2500,8 @@ break
 										"rowId": `${prefix}3dspace ${text}`
 									},
 									{
-										"title": "3Dneon️",
-										"description": "3Dneon Logo rawn siam rawh le",
+										"title": "3D Neon️",
+										"description": "3D Neon Logo rawn siam rawh le",
 										"rowId": `${prefix}3dneon ${text}`
 									},
 									{
@@ -2295,7 +2727,7 @@ case 'lava': case 'rockart': case 'bloodglas': case 'halloween': case 'darkgold'
              }
              break
 case'glitch3':
-if(!q) throw `Use ${prefix + command} text|text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2306,7 +2738,7 @@ maker.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.ht
    break
 
 case '3dbox':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-box-text-effect-online-880.html", [
     `${q}`,])
@@ -2315,7 +2747,7 @@ maker.textpro("https://textpro.me/3d-box-text-effect-online-880.html", [
 break
 
 case 'waterdrop':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
  maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
      `${q}`,])
@@ -2324,7 +2756,7 @@ m.reply(mess.wait)
      break
 
 case 'lion2':
-  if(!q) throw `Use ${prefix + command} text`
+  if(!q) throw `*Entirnan:* ${prefix + command} Hello`
   m.reply(mess.wait)
   maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [
       `${q}`,])
@@ -2333,7 +2765,7 @@ case 'lion2':
      break
 
 case 'papercut':
-      if(!q) throw `Use ${prefix + command} text`
+      if(!q) throw `*Entirnan:* ${prefix + command} Hello`
       m.reply(mess.wait)
       maker.textpro("https://textpro.me/create-art-paper-cut-text-effect-online-1022.html", [
 `${q}`,])
@@ -2342,7 +2774,7 @@ case 'papercut':
          break
 
 case 'transformer':
-      if(!q) throw `Use ${prefix + command} text`
+      if(!q) throw `*Entirnan:* ${prefix + command} Hello`
       m.reply(mess.wait)
       maker.textpro("https://textpro.me/create-a-transformer-text-effect-online-1035.html", [
 `${q}`,])
@@ -2351,7 +2783,7 @@ case 'transformer':
 break
    
 case 'harrypot':
-       if(!q) throw `Use ${prefix + command} text|text`
+       if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
        m.reply(mess.wait)
        teks1 = q.split("|")[0]
        teks2 = q.split("|")[1]
@@ -2362,7 +2794,7 @@ case 'harrypot':
  break
 
 case 'neondevil':
-      if(!q) throw `Use ${prefix + command} text`
+      if(!q) throw `*Entirnan:* ${prefix + command} Hello`
       m.reply(mess.wait)
       maker.textpro("https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html", [
 `${q}`,])
@@ -2371,7 +2803,7 @@ case 'neondevil':
          break
 
 case '3dstone':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html", [
     `${q}`,])
@@ -2380,7 +2812,7 @@ maker.textpro("https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html", 
    break
 
 case '3davengers':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html", [
     `${q}`,])
@@ -2389,7 +2821,7 @@ maker.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html", [
    break
 
 case 'thunder':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html", [
     `${q}`,])
@@ -2398,7 +2830,7 @@ maker.textpro("https://textpro.me/online-thunder-text-effect-generator-1031.html
    break
    
 case 'window':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", [
     `${q}`,])
@@ -2407,7 +2839,7 @@ maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.ht
    break
 
    case 'blackpinkneon':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-neon-light-blackpink-logo-text-effect-online-1081.html", [
     `${q}`,])
@@ -2417,7 +2849,7 @@ maker.textpro("https://textpro.me/create-neon-light-blackpink-logo-text-effect-o
 
 case 'graffiti':
    case 'grafiti':
-if(!q) throw `Use ${prefix + command} text|text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2428,7 +2860,7 @@ maker.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.h
    break
 
 case 'pornhub2':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2439,7 +2871,7 @@ maker.textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.h
    break
 
 case 'blackpink2':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html", [
     `${q}`,])
@@ -2448,7 +2880,7 @@ maker.textpro("https://textpro.me/create-blackpink-logo-style-online-1001.html",
    break
 
 case 'glitch':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1027.html", [
     `${q}`,])
@@ -2457,7 +2889,7 @@ maker.textpro("https://textpro.me/create-impressive-glitch-text-effects-online-1
    break
 
 case 'glitch2':
-if(!q) throw `Use ${prefix + command} text|text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2468,7 +2900,7 @@ maker.textpro("https://textpro.me/create-a-glitch-text-effect-online-free-1026.h
    break
 
 case 'glitch3':
-if(!q) throw `Use ${prefix + command} text|text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2479,7 +2911,7 @@ maker.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.ht
    break
 
 case '3dspace':
-if(!q) throw `Use ${prefix + command} text|text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2490,7 +2922,7 @@ maker.textpro("https://textpro.me/create-space-3d-text-effect-online-985.html", 
    break
 
 case 'lion':
-if(!q) throw `Use ${prefix + command} text|text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello|text`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2501,7 +2933,7 @@ maker.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html", [
    break
 
 case '3dneon':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html", [
     `${q}`,])
@@ -2510,7 +2942,7 @@ maker.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.h
    break
 
 case 'neon':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/neon-text-effect-online-879.html", [
     `${q}`,])
@@ -2519,7 +2951,7 @@ maker.textpro("https://textpro.me/neon-text-effect-online-879.html", [
    break
 
 case 'greenneon':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/green-neon-text-effect-874.html", [
     `${q}`,])
@@ -2528,7 +2960,7 @@ maker.textpro("https://textpro.me/green-neon-text-effect-874.html", [
    break
     
 case 'bokeh':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/bokeh-text-effect-876.html", [
     `${q}`,])
@@ -2539,7 +2971,7 @@ maker.textpro("https://textpro.me/bokeh-text-effect-876.html", [
    
 
 case 'holographic':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/holographic-3d-text-effect-975.html", [
     `${q}`,])
@@ -2551,7 +2983,7 @@ maker.textpro("https://textpro.me/holographic-3d-text-effect-975.html", [
 
 case 'bear':
 
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2563,7 +2995,7 @@ maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creati
 
 case 'wolf':
 
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 teks1 = q.split("|")[0]
 teks2 = q.split("|")[1]
@@ -2574,7 +3006,7 @@ maker.textpro("https://textpro.me/create-wolf-logo-galaxy-online-936.html", [
    break
 
 case 'joker':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-logo-joker-online-934.html", [
     `${q}`,])
@@ -2583,7 +3015,7 @@ maker.textpro("https://textpro.me/create-logo-joker-online-934.html", [
    break
 
 case 'dropwater2':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
     `${q}`,])
@@ -2592,7 +3024,7 @@ maker.textpro("https://textpro.me/dropwater-text-effect-872.html", [
    break
    
    case 'summertime':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-summer-neon-light-text-effect-online-1076.html", [
     `${q}`,])
@@ -2601,7 +3033,7 @@ maker.textpro("https://textpro.me/create-a-summer-neon-light-text-effect-online-
    break
 
 case 'neonlight2':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-981.html", [
     `${q}`,])
@@ -2610,7 +3042,7 @@ maker.textpro("https://textpro.me/neon-light-text-effect-with-galaxy-style-981.h
    break
 
 case 'thewall':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/break-wall-text-effect-871.html", [
     `${q}`,])
@@ -2619,7 +3051,7 @@ maker.textpro("https://textpro.me/break-wall-text-effect-871.html", [
    break
    
 case 'natural':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", [
     `${q}`,])
@@ -2628,7 +3060,7 @@ maker.textpro("https://textpro.me/natural-leaves-text-effect-931.html", [
    break 
 
 case 'carbon':
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/carbon-text-effect-833.html", [
     `${q}`,])
@@ -2637,7 +3069,7 @@ maker.textpro("https://textpro.me/carbon-text-effect-833.html", [
    break
 
 case 'pencil':
-if(!q) throw`Use ${prefix + command} text`
+if(!q) throw`*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
     `${q}`,])
@@ -2665,14 +3097,14 @@ case 'hoorror':{
 
      let link = `https://textpro.me/horror-blood-text-effect-online-883.html`
      let anui = await textpro(link, q)
-     m.reply(`Wait a moment while making the logo about 1 minute`) 
+     m.reply(`Rei lo te minute khat vel min lo nghak rawh...`) 
      console.log(anui)
     XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Siamted by HBWABot3!"}, {quoted:m})
 }
    break
 case 'whitebear':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html", [
     `${q}`,])
@@ -2681,7 +3113,7 @@ maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creati
    break
 case 'thunder2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-thunder-text-effect-online-881.html", [
     `${q}`,])
@@ -2691,7 +3123,7 @@ maker.textpro("https://textpro.me/create-thunder-text-effect-online-881.html", [
    break
 case 'neon':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-text-effect-online-882.html", [
     `${q}`,])
@@ -2700,7 +3132,7 @@ maker.textpro("https://textpro.me/neon-light-text-effect-online-882.html", [
    break
 case 'matrix2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/matrix-style-text-effect-online-884.html", [
     `${q}`,])
@@ -2709,7 +3141,7 @@ maker.textpro("https://textpro.me/matrix-style-text-effect-online-884.html", [
    break
 case 'sky':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html", [
     `${q}`,])
@@ -2718,7 +3150,7 @@ maker.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1
    break
 case 'magma':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-magma-hot-text-effect-online-1030.html", [
     `${q}`,])
@@ -2727,7 +3159,7 @@ maker.textpro("https://textpro.me/create-a-magma-hot-text-effect-online-1030.htm
    break
 case 'sand':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
     `${q}`,])
@@ -2736,7 +3168,7 @@ maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
    break
 case 'pencil':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
     `${q}`,])
@@ -2745,7 +3177,7 @@ maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html",
    break
 case 'graffiti':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html", [
     `${q}`,])
@@ -2754,7 +3186,7 @@ maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011
    break
 case 'metallic':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-metallic-text-effect-free-online-1041.html", [
     `${q}`,])
@@ -2763,7 +3195,7 @@ maker.textpro("https://textpro.me/create-a-metallic-text-effect-free-online-1041
    break
 case 'steel':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/steel-text-effect-online-921.html", [
     `${q}`,])
@@ -2772,7 +3204,7 @@ maker.textpro("https://textpro.me/steel-text-effect-online-921.html", [
    break
 case 'harrpotter':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", [
     `${q}`,])
@@ -2781,7 +3213,7 @@ maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.ht
    break
 case 'underwater':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-underwater-text-effect-generator-online-1013.html", [
     `${q}`,])
@@ -2790,7 +3222,7 @@ maker.textpro("https://textpro.me/3d-underwater-text-effect-generator-online-101
    break
 case 'luxury':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html", [
     `${q}`,])
@@ -2799,7 +3231,7 @@ maker.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html", 
    break
 case 'glue2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html", [
     `${q}`,])
@@ -2808,7 +3240,7 @@ maker.textpro("https://textpro.me/create-3d-glue-text-effect-with-realistic-styl
    break
 case 'fabric':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/fabric-text-effect-online-964.html", [
     `${q}`,])
@@ -2817,7 +3249,7 @@ maker.textpro("https://textpro.me/fabric-text-effect-online-964.html", [
    break
 case 'neonlight':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-glitch-text-generator-online-1063.html", [
     `${q}`,])
@@ -2826,7 +3258,7 @@ maker.textpro("https://textpro.me/neon-light-glitch-text-generator-online-1063.h
    break
 case 'lava':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/lava-text-effect-online-914.html", [
     `${q}`,])
@@ -2835,7 +3267,7 @@ maker.textpro("https://textpro.me/lava-text-effect-online-914.html", [
    break
 case 'toxic':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/toxic-text-effect-online-901.html", [
     `${q}`,])
@@ -2844,7 +3276,7 @@ maker.textpro("https://textpro.me/toxic-text-effect-online-901.html", [
    break
 case 'ancient':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-golden-ancient-text-effect-online-free-1060.html", [
     `${q}`,])
@@ -2853,7 +3285,7 @@ maker.textpro("https://textpro.me/3d-golden-ancient-text-effect-online-free-1060
    break
 case 'christmas2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/sparkles-merry-christmas-text-effect-1054.html", [
     `${q}`,])
@@ -2862,7 +3294,7 @@ maker.textpro("https://textpro.me/sparkles-merry-christmas-text-effect-1054.html
    break
 case 'sci_fi':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html", [
     `${q}`,])
@@ -2871,7 +3303,7 @@ maker.textpro("https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html"
    break
 case 'rainbow':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html", [
     `${q}`,])
@@ -2880,7 +3312,7 @@ maker.textpro("https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.
    break
 case 'classic':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/video-game-classic-8-bit-text-effect-1037.html", [
     `${q}`,])
@@ -2889,7 +3321,7 @@ maker.textpro("https://textpro.me/video-game-classic-8-bit-text-effect-1037.html
    break
 case 'watercolor2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html", [
     `${q}`,])
@@ -2898,7 +3330,7 @@ maker.textpro("https://textpro.me/create-a-free-online-watercolor-text-effect-10
    break
 case 'halloweem2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-spooky-halloween-text-effect-online-1046.html", [
     `${q}`,])
@@ -2907,7 +3339,7 @@ maker.textpro("https://textpro.me/create-a-spooky-halloween-text-effect-online-1
    break
 case 'halloweenfire':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/halloween-fire-text-effect-940.html", [
     `${q}`,])
@@ -2916,7 +3348,7 @@ maker.textpro("https://textpro.me/halloween-fire-text-effect-940.html", [
    break
 case 'writing':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
     `${q}`,])
@@ -2925,7 +3357,7 @@ maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
    break
 case 'foggy':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", [
     `${q}`,])
@@ -2934,7 +3366,7 @@ maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.ht
    break
 case 'marvel':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.html", [
     `${q}`,])
@@ -2943,7 +3375,7 @@ maker.textpro("https://textpro.me/create-logo-style-marvel-studios-ver-metal-972
    break
 case 'skeleton2':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html", [
     `${q}`,])
@@ -2952,7 +3384,7 @@ maker.textpro("https://textpro.me/create-halloween-skeleton-text-effect-online-1
    break
 case 'sketch':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
     `${q}`,])
@@ -2961,7 +3393,7 @@ maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html",
    break
 case 'wonderful':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html", [
     `${q}`,])
@@ -2970,7 +3402,7 @@ maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011
    break
 case 'batman':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/make-a-batman-logo-online-free-1066.html", [
     `${q}`,])
@@ -2979,7 +3411,7 @@ maker.textpro("https://textpro.me/make-a-batman-logo-online-free-1066.html", [
    break
 case 'juice':
    
-if(!q) throw `Use ${prefix + command} text`
+if(!q) throw `*Entirnan:* ${prefix + command} Hello`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/fruit-juice-text-effect-861.html", [
     `${q}`,])
