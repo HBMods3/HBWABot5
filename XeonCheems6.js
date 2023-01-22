@@ -2537,6 +2537,35 @@ const listMessage = {
 const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 }
 break 
+case 'hmandan':{
+var unicorn = await getBuffer(picak+'A hman dan tur')
+
+const buttons = [
+  {buttonId: 'siamtu', buttonText: {displayText: 'Ka la hrethiam chung lo'}, type: 1}
+]
+const buttonMessage = {
+    image: unicorn,
+    caption: `*A Hman Dan Tur Step by Step in*
+    
+*1. I WhatsApp settings ah lut la*
+*2. Chats tiah khan lut la*
+*3. Scroll down la Chat backup ah lut la*
+*4. I Message backup kha 100% a tlin hunah
+tunah* 
+*5. I WhatsApp hman lai kha Uninstall la*
+*6. Chuan he mi [ https://herbert70.blogspot.com/2022/10/whatsapp.html ] WhatsApp hi i install thei tawh mai ang
+*7. I install zo hunah chuan i login anga i login zo hunah restore leh skip a rawn lang anga*
+*8. Restore tih kha hmeh zawk tur a ni* 
+
+
+*He mi step by step a ka rawn dah hi ila hrethiam chiang lo a nih chuan, a hnuaia Button khu hmet rawh*`,
+    footer: `${botname}`,
+    buttons: buttons,
+    headerType: 4
+}
+const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+}
+break
 case 'whatsapp': case 'whatsappmod': case 'hbmods': case 'mod': {
 	   const sections = [{
 								"title": "WhatsApp Mod hrang hrang i duh ber khu select rawh",
@@ -2552,7 +2581,7 @@ case 'whatsapp': case 'whatsappmod': case 'hbmods': case 'mod': {
 										"rowId": `${prefix}gbpro`
 										},
 									{
-										"title": "OGWhatsApp",
+										"title": "OGWhatsApp Pro",
 										"description": "OGWhatsApp Pro ka duh e",
 										"rowId": `${prefix}ogwhatsapp`
 										},
@@ -8303,7 +8332,7 @@ case 'fmwhatsapp': case 'fm': case 'fouad': case 'fouadmod': {
 						]
 const listMessage = {
   text: "*FMWhatsApp hi pahnih a thren a ni a, A pakhat zawk hi WhatsApp tiin a awma*",
-  footer: `WhatsApp messanger i hman chuan i install thei lo ang`,
+  footer: `WhatsApp messanger i hman chuan *WhatsApp* in tih hi i install thei lo ang`,
   title: `*FMWhatsApp*`,
   buttonText: "FMWhatsApp",
   sections
@@ -8336,7 +8365,7 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `*FMWhatsApp*
+    caption: `*WhatsApp*
 https://herbert70.blogspot.com/2022/10/whatsapp.html
 he mi mod bik hi i install thei loh a nih chuan a hman dan tur hrilhfiahna button khu hmet rawh`,
     footer: `${botname}`,
