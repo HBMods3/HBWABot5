@@ -2550,10 +2550,9 @@ const buttonMessage = {
 *1. I WhatsApp settings ah lut la*
 *2. Chats tiah khan lut la*
 *3. Scroll down la Chat backup ah lut la*
-*4. I Message backup kha 100% a tlin hunah
-tunah* 
+*4. I Message backup kha 100% a tlin hunah*
 *5. I WhatsApp hman lai kha Uninstall la*
-*6. Chuan he mi [ https://herbert70.blogspot.com/2022/10/whatsapp.html ] WhatsApp hi i install thei tawh mai ang
+*6. Chuan he mi [ https://herbert70.blogspot.com/2022/10/whatsapp.html ] WhatsApp hi i install thei tawh mai ang*
 *7. I install zo hunah chuan i login anga i login zo hunah restore leh skip a rawn lang anga*
 *8. Restore tih kha hmeh zawk tur a ni* 
 
