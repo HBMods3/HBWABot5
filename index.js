@@ -220,7 +220,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    │✑  ${xeontime} ${xeondate}
    └───────────────┈ ⳹`
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Mangtha 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -289,7 +289,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await XeonBotInc.getName(i),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.Email;type=YouTube:herberthmar20@gmail.com\nitem2.X-ABLabel:Instagram\nitem3.URL:https://herbert70.blogspot.com\nitem3.X-ABLabel:Email\nitem4.ADR:;;INDIA;Mizoram Phuaibuang;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:$@${ownernya.split('@')[0]}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.Email;type=YouTube:herberthmar20@gmail.com\nitem2.X-ABLabel:Instagram\nitem3.URL:https://herbert70.blogspot.com\nitem3.X-ABLabel:Email\nitem4.ADR:;;INDIA;Mizoram Phuaibuang;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	XeonBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
