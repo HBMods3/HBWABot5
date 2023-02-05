@@ -7800,7 +7800,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
   }
   }
   ]
-  ), { userJid: m.chat })
+  }),
   XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
   }
 break
@@ -8399,7 +8399,7 @@ const buttons = [
 const buttonMessage = {
     image: unicorn,
     caption: `*FMWhatsApp*
-    https://herbert70.blogspot.com/2022/10/fmwhatsapp.html`,
+https://herbert70.blogspot.com/2022/10/fmwhatsapp.html`,
     footer: `${botname}`,
     buttons: buttons,
     headerType: 4
