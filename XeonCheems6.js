@@ -7801,7 +7801,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
   }
   ]
   }),
-const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
+  XeonBotInc.sendMessage(m.chat, buttonMessage, {quoted: fkontak})
 }
 break
 case '🌷':{
