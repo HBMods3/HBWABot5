@@ -7753,57 +7753,6 @@ XeonBotInc.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/zSQFF5F/Nukleal
 }
 }
 break
-case 'hbmods': case 'herbert': {
-teks = `HBMods Apk Store`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-  hydratedContentText: anu,
-  hydratedFooterText: `HBWABot`,
-  hydratedButtons: [{        
-  "urlButton": {
-  "displayText": "GBWhatsApp",
-  "url": "https://herbert70.blogspot.com/2022/04/download-gbwhatsapp-last-version-update.html?m=1"
-  }
-  }, {        
-  "urlButton": {
-  "displayText": "GBWhatsApp Pro",
-  "url": "https://herbert70.blogspot.com/2022/12/app-name-gbwhatsapp-pro-version-17.html?m=1"
-  }
-  }, {        
-  "urlButton": {
-  "displayText": "YOWhatsApp",
-  "url": "https://herbert70.blogspot.com/2022/10/yowhatsapp.html"
-  }
-  }, {        
-  "urlButton": {
-  "displayText": "FMWhatsApp",
-  "url": "https://herbert70.blogspot.com/search/label/FMWhatsApp"
-  }
-  }, {        
-  "urlButton": {
-  "displayText": "YouTube Pro",
-  "url": "https://herbert70.blogspot.com/search/label/YouTube%20Prol"
-  }
-  }, {        
-  "urlButton": {
-  "displayText": "Instagram Pro",
-  "url": "https://herbert70.blogspot.com/search/label/Instapro"
-  }
-  }, {        
-  "urlButton": {
-  "displayText": "FOLLOW",
-  "url": "https://herbert70.blogspot.com/2022/04/download-gbwhatsapp-last-version-update.html?m=1"
-  }
-  }, {
-  urlButton: {
-  displayText: "SUBSCRIBE",
-  url: 'https://herbert70.blogspot.com/2022/10/whatsapp.html'
-  }
-  }
-  ]
-  }),
-  XeonBotInc.sendMessage(m.chat, buttonMessage, {quoted: fkontak})
-}
-break
 case '🌷':{
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
