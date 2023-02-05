@@ -7756,9 +7756,6 @@ break
 case 'hbmods': case 'herbert': {
 teks = `HBMods Apk Store`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-  templateMessage: {
-  hydratedTemplate: {
-  imageMessage: message.imageMessage,
   hydratedContentText: anu,
   hydratedFooterText: `HBWABot`,
   hydratedButtons: [{        
@@ -7803,10 +7800,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
   }
   }
   ]
-  }
-  }
-  }), { userJid: m.chat })
-  XeonBotInc.sendMessage(m.chat, template.message, { messageId: template.key.id })
+  ), { userJid: m.chat })
+  XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
   }
 break
 case '🌷':{
